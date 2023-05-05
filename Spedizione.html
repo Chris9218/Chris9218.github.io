@@ -5,97 +5,100 @@
     <title>Form Spedizione </title>
 </head>
 <body>
-<table>
-
-    <form id="deliverly" autocomplete="on">
-        <tr>
-            <td><label for="Name">Nome*</label></td>
-            <td>
-                <input id="Name" type="text" name="name" placeholder="Nome" required></td>
-        </tr>
-        <tr>
-            <td><label for="LastName">Cognome*</label></td>
-            <td>
-                <input id="LastName" type="text" name="lastname" placeholder="Cognome" required></td>
-        </tr>
 
 
-        <tr>
-            <td><label for="address">Indirizzo*</label></td>
-            <td>
-                <input id="address" type="text" name="Address" placeholder="Via Roma" required></td>
-        </tr>
+<form method="post" id="deliverly" autocomplete="on">
+    <div>
+        <div>Campo</div>
+        <div>Input</div>
+    </div>
+    <div>
+        <div><label for="Name">Nome*</label></div>
+        <div>
+            <input id="Name" type="text" name="name" placeholder="Nome" required></div>
+    </div>
+    <div>
+        <div><label for="LastName">Cognome*</label></div>
+        <div>
+            <input id="LastName" type="text" name="lastname" placeholder="Cognome" required></div>
+    </div>
 
 
-        <tr>
-            <td><label for="po">Civico*</label></td>
-            <td>
-                <input type="number" name="po" id="po" placeholder="1" required></td>
-        </tr>
+    <div>
+        <div><label for="address">Indirizzo*</label></div>
+        <div>
+            <input id="address" type="text" name="Address" placeholder="Via Roma" required></div>
+    </div>
 
 
-        <tr>
-            <td><label for="cap">Cap*</label></td>
-            <td>
-                <input type="number" name="Cap" id="cap" placeholder="00000" required></td>
-        </tr>
+    <div>
+        <div><label for="po">Civico*</label></div>
+        <div>
+            <input type="number" name="po" id="po" placeholder="1" required></div>
+    </div>
 
 
-        <tr>
-            <td><label for="province">Provincia*</label></td>
-            <td>
-                <select name="province" id="province" required>
-                    <option value="MI">Milano</option>
-                    <option value="RM">Roma</option>
-                    <option value="TO">Torino</option>
-                    <option value="OTHER">Altro</option>
-                </select></td>
-        </tr>
+    <div>
+        <div><label for="cap">Cap*</label></div>
+        <div>
+            <input type="number" name="Cap" id="cap" placeholder="00000" required></div>
+    </div>
 
 
-        <tr>
-            <td><label for="City">Città*</label></td>
-            <td>
-                <input type="text" name="City" id="City" placeholder="Milano" required></td>
-        </tr>
+    <div>
+        <div><label for="province">Provincia*</label></div>
+        <div>
+            <select name="province" id="province" required>
+                <option value="MI">Milano</option>
+                <option value="RM">Roma</option>
+                <option value="TO">Torino</option>
+                <option value="OTHER">Altro</option>
+            </select></div>
+    </div>
 
 
-        <tr>
-            <td><label for="country">Nazione*</label></td>
-            <td>
-                <input type="text" name="country" id="country" placeholder="Italia" required></td>
-        </tr>
+    <div>
+        <div><label for="City">Città*</label></div>
+        <div>
+            <input type="text" name="City" id="City" placeholder="Milano" required></div>
+    </div>
 
 
-        <tr>
-            <td><label for="phone">Telefono</label></td>
-            <td>
-                <input type="tel" name="phone" id="phone" placeholder="3460000000"></td>
-        </tr>
+    <div>
+        <div><label for="country">Nazione*</label></div>
+        <div>
+            <input type="text" name="country" id="country" placeholder="Italia" required></div>
+    </div>
 
 
-        <tr>
-            <td><label for="email">Email*</label></td>
-            <td>
-                <input type="email" name="email" id="email" placeholder="tua@email.it" required></td>
-        </tr>
+    <div>
+        <div><label for="phone">Telefono</label></div>
+        <div>
+            <input type="tel" name="phone" id="phone" placeholder="3460000000"></div>
+    </div>
 
 
-        <tr>
-            <td><label for="note">Note</label></td>
-            <td>
-                <textarea name="note" id="note" cols="30" rows="10" placeholder="Note"></textarea></td>
-        </tr>
-
-        <tr>
-            <td>&nbsp;</td>
-            <td><input type="submit" value="Invia"></td>
-        </tr>
+    <div>
+        <div><label for="email">Email*</label></div>
+        <div>
+            <input type="email" name="email" id="email" placeholder="tua@email.it" required></div>
+    </div>
 
 
-    </form>
+    <div>
+        <div><label for="note">Note</label></div>
+        <div>
+            <textarea name="note" id="note" cols="30" rows="10" placeholder="Note"></textarea></div>
+    </div>
 
-</table>
+    <div>
+        <div>&nbsp;</div>
+        <div><input type="submit" value="Invia"></div>
+    </div>
+
+
+</form>
+
 
 <button type="reset" form="deliverly">Reset</button>
 </body>
